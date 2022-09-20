@@ -12,8 +12,7 @@ public class Builds : MonoBehaviour
 
     public void StartBuilding()
     {
-        buildManager.IsBuilding = true;
-        SetPrefab(Random.Range(0,objects.Length - 1));
+        // later
     }
 
     public void SetPrefab(int id)
